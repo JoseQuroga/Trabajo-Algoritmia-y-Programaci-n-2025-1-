@@ -29,7 +29,7 @@ Laura -
 
 
 ## 4 - Licencia 
-
+Este proyecto está bajo la licencia [ Trabajo-Algoritmia-y-Programacion-2025-1 © 2025 by Jose Quiroga is licensed under CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/).
 
 ## 5 - Reporte de vision 
 
