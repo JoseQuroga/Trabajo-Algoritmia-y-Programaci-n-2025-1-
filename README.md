@@ -58,4 +58,6 @@ solución?
 
 
 ## 7 - Plan de Proyecto
+
+
 import matplotlib
