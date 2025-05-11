@@ -61,5 +61,5 @@ Estructuras de control (if, else, while)
 colecciones (diccionarios, listas, tuplas).
 
 ## 7 - Plan de Proyecto
-![Diagrama de Gantt](gantt.png)
+![Diagrama de Gantt]([gantt.png](https://github.com/JoseQuroga/Trabajo-Algoritmia-y-Programaci-n-2025-1-/blob/main/Gantt.png))
 
