@@ -8,22 +8,22 @@
 
 ## 1 - Integrantes
 
-Jose Alexander Quiroga Narvaez - 
+Jose Quiroga – Responsable del desarrollo de código
 
-Alexis -
+Laura Gelvez – Responsable de documentación
 
-Laura - 
+Alexis Vallejo – Responsable de pruebas y validaciones
 
 ## 2 - Vinculos Academicos y Descripcion
 
-#### Jose Alexander Quiroga Narvaez
+#### Jose Quiroga
 - 
 
-#### Alexis 
-- Soy estudiante de Ingeniería Industrial. He realizado la creación de unos códigos en mi carrera como instrumentista industrial, enfocados en la programación de Arduino y en la creación de un programa de gestion de mantenimiento, tengo conceptos básicos sobre programación en lenguaje C y C++. Al trabajo puedo aportar mi capacidad de manejo de información, responsabilidad y ganas de sacar el trabajo adelante.
-
-#### Laura
+#### Laura Gelvez
 -
+
+#### Alexis Vallejo
+- Soy estudiante de Ingeniería Industrial. He realizado la creación de unos códigos en mi carrera como instrumentista industrial, enfocados en la programación de Arduino y en la creación de un programa de gestion de mantenimiento, tengo conceptos básicos sobre programación en lenguaje C y C++. Al trabajo puedo aportar mi capacidad de manejo de información, responsabilidad y ganas de sacar el trabajo adelante.
 
 ## 3 - Descripcion 
 
