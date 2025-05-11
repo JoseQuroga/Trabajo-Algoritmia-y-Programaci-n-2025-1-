@@ -26,7 +26,7 @@ Alexis Vallejo – Responsable de pruebas y validaciones
 - Soy estudiante de Ingeniería Industrial. He realizado la creación de unos códigos en mi carrera como instrumentista industrial, enfocados en la programación de Arduino y en la creación de un programa de gestion de mantenimiento, tengo conceptos básicos sobre programación en lenguaje C y C++. Al trabajo puedo aportar mi capacidad de manejo de información, responsabilidad y ganas de sacar el trabajo adelante.
 
 ## 3 - Descripcion 
-
+Se realizará un código en el cual el hotel Maison 33 podrá tener un registro de todos sus clientes con los datos necesarios para brindar el mejor servicio, igualmente los clientes podrán realizar reservas acerca del servicio requieran y el tiempo que lo necesiten de una forma fácil y cómoda
 
 ## 4 - Licencia 
 Este proyecto está bajo la licencia [ Trabajo-Algoritmia-y-Programacion-2025-1 © 2025 by Jose Quiroga is licensed under CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/).
