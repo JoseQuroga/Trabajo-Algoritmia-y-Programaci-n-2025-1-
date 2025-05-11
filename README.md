@@ -59,7 +59,31 @@ Estructuras de control (if, else, while)
 colecciones (diccionarios, listas, tuplas).
 
 ## 7 - Plan de Proyecto
-#### Presupuesto del Proyecto 
+### Actividades - Tiempo estimado
+Reunion inicial y actas de entendimiento - 2h
+
+Analisis del problema y especificacion de requisitos - 3h
+
+Diseño de la solucion - 3h
+
+Programar modulo de registro de huespedes - 4h
+
+Programar reservas - 4h
+
+Programar check-out y facturacion - 4h
+
+Programar modulo de administrador - 5h
+
+Implementacion de graficos - 4h
+
+Prueba del sistema y control - 4h
+
+Redaccion del manual - 2h
+
+Organizar repositorio - 1h
+
+
+### Presupuesto del Proyecto 
 Número de estudiantes: 3
 
 Horas totales invertidas: 3 x 50 = 150 horas
