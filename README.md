@@ -37,27 +37,29 @@ Se realizará un código en el cual el hotel Maison 33 podrá tener un registro 
 ## 6 - Especificaciones de requisitos
 Para el correcto desarrollo del codigo se hara uso de diferentes componentes para asi crear la logica y desarrollar el programa.
 
-• ¿Qué puede hacer el sistema? 
+# • ¿Qué puede hacer el sistema? 
 Puede registrar informacion importante y util sobre los huespedes podrá tener un registro de todos sus clientes con los datos necesarios para brindar el mejor servicio, ademas darle la facilidad al usuario de mostrar sus necesidades y buscar correctamente que es lo que quiere, conocer informacion acerca de,conocer cuando los clientes tienen los servicios y cuando dejen de necesitarlos, darle a entender al cliente las especifiones que debe tener en cuenta en el momento del uso del programa, dependiendo del servicio que necesite el cliente podra ver el valor de su estancia para conocer cuanto dinero usara, para los administrativos, ellos podran ver el repositorios de las habitaciones usadas y por usar, ademas de los usuarios registrados.
 
-• ¿Qué se espera que haga bien? 
-Los calculos correspondientes sobre el valor de cada servicio relacionados a las noches de uso del hotel para que el cliente tenga la informacion correcta, se guarde +correctamente la informacion brindada por cada usuario 
+# • ¿Qué se espera que haga bien? 
+Los calculos correspondientes sobre el valor de cada servicio relacionados a las noches de uso del hotel para que el cliente tenga la informacion correcta, se guarde +correctamente la informacion brindada por cada usuario, ademas de que en la parte administrativa solo puedan entrar personas autorizadas usando autentifiacion 
 
-• ¿Qué debe evitarse o no debe hacer? 
+# • ¿Qué debe evitarse o no debe hacer? 
+El programa debe evitar datos invalidos, o incompletos por parte de los usuarios, por lo que se tendran una especificaciones requeridas, tampoco se debe poder mostrar informacion de los administrativos a los usurios, ademas de no mostrar valores incorrectos a la hora de realizar la reserva
 
+# • ¿Qué librerías se requieren para llevar a cabo la solución? 
+Usaremos la libreriua matplotlib para generar distintos graficos y asi facilitar la informacion que se requiera tanto para usuarios como para administrativos
 
-• ¿Qué librerías se requieren para llevar a cabo la solución? 
-
-
-• ¿Qué funciones se deben crear para resolver el problema 
+# • ¿Qué funciones se deben crear para resolver el problema 
 planteado? 
+Las funciones que usaremos principalmente en el codigo y nos ayudaran a llevar correctamente al usuario a lo que necesite serán:
+def Realizar_Reserva (), def Registrar_Salida(), def Datos_Administrativos(), def Generar_Reportes, de Graficar_Datos(), 
 
-
-• ¿Qué estructuras de datos se van a implementar en la 
+# • ¿Qué estructuras de datos se van a implementar en la 
 solución? 
-
+Las estructuras que usaremos para implementar en la solucion serian herramientas como:
+Estructuras de control (if, else, while) 
+colecciones (diccionarios, listas, tuplas).
 
 ## 7 - Plan de Proyecto
 
 
-import matplotlib
