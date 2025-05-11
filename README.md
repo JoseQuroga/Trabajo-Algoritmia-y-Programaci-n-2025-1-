@@ -17,7 +17,7 @@ Alexis Vallejo – Responsable de pruebas y validaciones
 ## 2 - Vinculos Academicos y Descripcion
 
 #### Jose Quiroga
-- 
+- Soy estudiante de Ingenieria Industrial. Tengo conocimientos acerca de el lenguaje de programacion python, y distintos lenguajes usados en programas de optimizacion, por lo que principalmente buscare que el codigo sea ordenado, depurado y facil de entender, para que personas que incluso no saben programar puedan realizar lo que necesiten y cumplir con el objetivo del proyecto 
 
 #### Laura Gelvez
 -
