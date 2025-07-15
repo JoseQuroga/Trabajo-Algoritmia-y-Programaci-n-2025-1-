@@ -103,7 +103,7 @@ Total estimado: 150 horas
 ![Diagrama de Gantt](Gantt.png)
 
 ## 9 - Algoritmo
-    src/Codigo
+https://github.com/JoseQuroga/Trabajo-Algoritmia-y-Programaci-n-2025-1-/blob/a2aea809403b0e52c85a54876336afaed03c4b98/src/Codigo
 
 ## 10 - Manual de Usuario 
-    doc/Manual_Usuario.md
+https://github.com/JoseQuroga/Trabajo-Algoritmia-y-Programaci-n-2025-1-/blob/a2aea809403b0e52c85a54876336afaed03c4b98/doc/Manual_Usuario.md
