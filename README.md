@@ -102,6 +102,31 @@ Total estimado: 150 horas
 
 ![Diagrama de Gantt](Gantt.png)
 
+## 8 - Plan de versionado
+
+| Versión | Fecha      | Cambios realizados                                                    | Responsable    |
+| ------- | ---------- | --------------------------------------------------------------------- | -------------- |
+| v0.1    | 2025-05-11 | Inicio del proyecto, lectura del enunciado oficial                    | Todo el grupo  |
+| v0.2    | 2025-05-12 | Análisis de requisitos: funcionalidades, validaciones, estructuras    | Todo el grupo  |
+| v0.3    | 2025-05-12 | Creacion de las actas de responsabilidades                            | Laura Gelvez   |
+| v0.4    | 2025-05-13 | Descripcion de cada uno de los integrantes con sus funciones          | Todo el grupo  |
+| v0.5    | 2025-05-14 | Descricpion del proyecto, junto con la vision del mismo               | Todo el grupo  |
+| v0.6    | 2025-05-14 | Implementacion de la licencia para el trabajo                         | Todo el grupo  |
+| v0.7    | 2025-05-14 | Especificaciones de como sera el programa para el trabajo             | Todo el grupo  |
+| v0.8    | 2025-05-14 | Plan del proyecto (Calendario)                                        | Todo el grupo  |
+| v1.0    | 2025-05-15 | Primera entrega del trabajo                                           | Todo el grupo  |
+| v1.1    | 2025-05-17 | Diseño del menú principal e interfaz en consola                       | Jose Quiroga   |
+| v1.2    | 2025-06-01 | Implementación de registro de huéspedes con validaciones              | Jose Quiroga   |
+| v1.3    | 2025-06-07 | Función de realizar reservas y creación de archivos CSV               | Jose Quiroga   |
+| v1.4    | 2025-06-15 | Implementación del módulo de check-out (registro de salida)           | Jose Quiroga   |
+| v1.5    | 2025-06-22 | Facturación completa por tipo de habitación                           | Jose Quiroga   |
+| v1.6    | 2025-06-30 | Creación del módulo administrativo con autenticación                  | Jose Quiroga   |
+| v1.7    | 2025-07-10 | Agregada función de check-in (registro de ingreso)                    | Jose Quiroga   |
+| v1.8    | 2025-07-13 | Validaciones mejoradas y estructura general del sistema refinada      | Alexis Vallejo |
+| v1.9    | 2025-07-14 | Corrección de errores con archivos CSV y codificaciones               | Alexis Vallejo |
+| v2.0    | 2025-07-15 | Versión final funcional. Incluye log de eventos, reportes y gráficos  | Alexis Vallejo |
+
+
 ## 9 - Algoritmo
 https://github.com/JoseQuroga/Trabajo-Algoritmia-y-Programaci-n-2025-1-/blob/a2aea809403b0e52c85a54876336afaed03c4b98/src/Codigo
 
