@@ -110,10 +110,10 @@ Total estimado: 150 horas
 | v0.2    | 2025-05-12 | Análisis de requisitos: funcionalidades, validaciones, estructuras    | Todo el grupo  |
 | v0.3    | 2025-05-12 | Creacion de las actas de responsabilidades                            | Laura Gelvez   |
 | v0.4    | 2025-05-13 | Descripcion de cada uno de los integrantes con sus funciones          | Todo el grupo  |
-| v0.5    | 2025-05-14 | Descricpion del proyecto, junto con la vision del mismo               | Todo el grupo  |
+| v0.5    | 2025-05-14 | Descricpion del proyecto, junto con la vision del mismo               | Laura Gelvez   |
 | v0.6    | 2025-05-14 | Implementacion de la licencia para el trabajo                         | Todo el grupo  |
 | v0.7    | 2025-05-14 | Especificaciones de como sera el programa para el trabajo             | Todo el grupo  |
-| v0.8    | 2025-05-14 | Plan del proyecto (Calendario)                                        | Todo el grupo  |
+| v0.8    | 2025-05-14 | Plan del proyecto (Calendario)                                        | Laura Gelvez   |
 | v1.0    | 2025-05-15 | Primera entrega del trabajo                                           | Todo el grupo  |
 | v1.1    | 2025-05-17 | Diseño del menú principal e interfaz en consola                       | Jose Quiroga   |
 | v1.2    | 2025-06-01 | Implementación de registro de huéspedes con validaciones              | Jose Quiroga   |
