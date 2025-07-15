@@ -106,3 +106,4 @@ Total estimado: 150 horas
 https://github.com/JoseQuroga/Trabajo-Algoritmia-y-Programaci-n-2025-1-/blob/main/C%C3%B3digo%20del%20Programa
 
 ## 10 - Manual de Usuario 
+doc/Manual_Usuario.md
