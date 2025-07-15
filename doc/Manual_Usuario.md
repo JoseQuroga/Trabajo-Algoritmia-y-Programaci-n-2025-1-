@@ -45,8 +45,12 @@ En esta opcion el usuario debera ingresar el numero 4 (Cuatro), y sirve para dar
 #### Modulo Administrativo
 En esta opcion es donde los administradores del hotel podran ver cosas como lo son todos los datos del hotel y los huespedes, para ingresar aqui deben tener su usuario y contraseña puestos en el archivo admin.csv, y una vez los ingreses ya se habilitara todo el modulo administrativo en donde podemos hacer cosas como
 
-Reportes Grafficos 
+Reportes Graficos: 
 Donde se muestra una grafica de barras con la ocupacion de habitaciones de cada tipo 
 
 #### Salir
 Para esta opcion se debe colocar el numero 6 (Seis) y ya el programa se dara por finalizado y no se podra ingresar ninguna otra opcion a no ser de que el programa se ejecute nuevamente 
+
+## Recomendaciones Generales
+- Siempre se deben usar las opciones del menu en orden, ya que si no se hace de esta manera no se podra hacer los distintos registros correctamente
+- Si en algun momento los datos no son bien digitados el sistema mostrara que errores tienen para poder realizar los registros correctamente 
