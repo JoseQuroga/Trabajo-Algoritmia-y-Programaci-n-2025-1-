@@ -103,7 +103,7 @@ Total estimado: 150 horas
 ![Diagrama de Gantt](Gantt.png)
 
 ## 9 - Algoritmo
-src/Codigo
+    src/Codigo
 
 ## 10 - Manual de Usuario 
-doc/Manual_Usuario.md
+    doc/Manual_Usuario.md
