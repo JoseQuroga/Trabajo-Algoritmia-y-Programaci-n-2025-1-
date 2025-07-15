@@ -36,19 +36,19 @@ En esta opcion el usuario debera ingresar el numero 2 (Dos), donde permite reliz
 - Tipo de habitacion
 - Numero de noches
 
-#### Registrar Ingreso (3)
+#### Registrar Ingreso (Check-In) (3)
 En esta opcion el usuario debera ingresar el numero 3 (Tres), Donde se permite registrar el ingreso del huespedes con una reserva previa, para poder hacer el Check-in el usuario debera ingresar su documento de identidad, y se guardara en el archivo ingresos.csv
 
-#### Registrar Salida (Check-Out)
+#### Registrar Salida (Check-Out) (4)
 En esta opcion el usuario debera ingresar el numero 4 (Cuatro), y sirve para darle salida a algun huespued, dandonos el valor total que debera pagar, basado en el tipo de habitacion y el numero de noches
 
-#### Modulo Administrativo
+#### Modulo Administrativo (5)
 En esta opcion es donde los administradores del hotel podran ver cosas como lo son todos los datos del hotel y los huespedes, para ingresar aqui deben tener su usuario y contraseña puestos en el archivo admin.csv, y una vez los ingreses ya se habilitara todo el modulo administrativo en donde podemos hacer cosas como
 
 Reportes Graficos: 
 Donde se muestra una grafica de barras con la ocupacion de habitaciones de cada tipo 
 
-#### Salir
+#### Salir (6)
 Para esta opcion se debe colocar el numero 6 (Seis) y ya el programa se dara por finalizado y no se podra ingresar ninguna otra opcion a no ser de que el programa se ejecute nuevamente 
 
 ## Recomendaciones Generales
