@@ -10,6 +10,9 @@ RESERVAS_CSV = 'reservas.csv'
 ADMIN_CSV = 'admin.csv'
 LOG_FILE = 'log.txt'
 
+TIPOS_HABITACION = {'estandar': 120000, 'suite': 250000}
+HABITACIONES = {'estandar': list(range(1, 31)), 'suite': list(range(31, 41))}
+
 def log_evento(accion):
     with open(LOG_FILE, 'a') as f:
         f.write(f"{datetime.now().isoformat()}|{getpass.getuser()}|{platform.system()}|{accion}\n")
@@ -17,18 +20,20 @@ def log_evento(accion):
 def leer_csv(nombre):
     if not os.path.exists(nombre):
         return []
-    with open(nombre, newline='') as f:
-        return list(csv.DictReader(f))
+    with open(nombre, newline='', encoding='utf-8-sig') as f:
+        reader = csv.DictReader(f)
+        reader.fieldnames = [h.strip().replace('\ufeff', '') for h in reader.fieldnames]
+        return list(reader)
 
 def escribir_csv(nombre, datos, campos):
-    with open(nombre, 'w', newline='') as f:
+    with open(nombre, 'w', newline='', encoding='utf-8') as f: # Added encoding='utf-8'
         writer = csv.DictWriter(f, fieldnames=campos)
         writer.writeheader()
         writer.writerows(datos)
 
 def agregar_csv(nombre, datos, campos):
     existe = os.path.exists(nombre)
-    with open(nombre, 'a', newline='') as f:
+    with open(nombre, 'a', newline='', encoding='utf-8') as f: # Added encoding='utf-8'
         writer = csv.DictWriter(f, fieldnames=campos)
         if not existe:
             writer.writeheader()
@@ -101,8 +106,9 @@ def realizar_reserva():
         'ingreso': fecha_ingreso,
         'noches': noches,
         'costo': costo,
+        'check_in': '',
         'check_out': ''
-    }, ['documento', 'tipo', 'habitacion', 'ingreso', 'noches', 'costo', 'check_out'])
+    }, ['documento', 'tipo', 'habitacion', 'ingreso', 'noches', 'costo', 'check_in', 'check_out'])
     print(f"Reserva confirmada. Habitación {hab}. Total: ${costo}")
     log_evento("Realizar reserva")
 
@@ -122,7 +128,7 @@ def registrar_ingreso():
         log_evento("Registrar ingreso")
     else:
         print("No hay reservas pendientes de ingreso para este huésped.")
-        
+
 def registrar_salida():
     print("\n--- Registrar Salida ---")
     doc = input("Documento del huésped: ")
@@ -191,9 +197,9 @@ def graficar_datos():
 
 def menu():
     while True:
-        print("""        
+        print("""
 =======================================
-    Bienvenido al Hotel Maison 33 
+    Bienvenido al Hotel Maison 33
 =======================================
 1. Registrar huésped
 2. Realizar reserva
@@ -213,13 +219,10 @@ def menu():
         elif op == "4":
             registrar_salida()
         elif op == "5":
-            if login_admin():
-                graficar_habitaciones()
-            else:
-                print("Acceso denegado.")
+            datos_administrativos()
         elif op == "6":
             break
         else:
             print("Opción inválida.")
-            
+
 menu()
